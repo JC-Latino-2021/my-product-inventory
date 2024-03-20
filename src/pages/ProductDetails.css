@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+.Product-Image-Container {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgba(74, 74, 74, 0.3);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    margin-top: 35px;
+    padding: 15px 0px;
+}
+.Product-Image {
+    width: auto;
+    vertical-align: top;
+    max-height: 500px;
+}
+.Product-Info-Container {
+    text-align: right;
+    padding: 0px 15px 14px 30px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    margin-top: 35px;
+}
+.Product-Title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    padding: 0 15%;
+}
+.Product-Description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.Product-Price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #ff0000;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.Button-Styling {
+    width: 150px;
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FE4931;
+    color: #FFF5F5;
+    text-decoration: none;
+    line-height: 18px;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    border: none;
+}
+.Button-Styling:hover {  
+    background-color: #111E90;
+    color: #FFFFFF;
+    border: none;
+}
+
+p {
+    margin: 0px;
+}
+
+.Footer {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #FE4931;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1360px) {
+    .Product-Image-Container {
+        width: 50%;
+    }    
+    .Product-Image {
+        width: 100%;
+        max-width: max-content;
+        max-height: 500px;
+    }    
+    .Product-Info-Container {
+        text-align: right;
+        padding: 14px 10px 14px 25px;
+        width: 45%;
+    }    
+    .Product-Title {
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    .Product-Description {
+        font-size: 16px;
+    }
+    .Product-Price {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .Product-Image-Container {
+        width: 40%;
+    }
+    .Product-Info-Container {
+        text-align: right;
+        padding: 14px 5px 14px 25px;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .Product-Image-Container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: inline-block;
+        border: 0px;
+        box-shadow: none;
+    }    
+    .Product-Image {
+        width: 100%;
+        max-height: auto;
+    }
+    .Product-Info-Container {
+        text-align: right;
+        padding: 20px;
+        display: inline-block;
+        width: auto;
+    }    
+    .Product-Title {
+        font-size: 22px;
+        width: auto;
+        padding: 0px;
+    }    
+    .Product-Description {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+    .Product-Price {
+        font-size: 24px;
+    }
+}

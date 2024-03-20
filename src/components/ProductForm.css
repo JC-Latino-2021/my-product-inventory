@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+.Product-Form {
+    text-align: center;
+    width: 100%;
+}
+.Form-Title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+}
+.Form-Container {
+    text-align: center;
+    width: 100%;
+    padding-left: 13%;
+    padding-right: 13%;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.Form-Group {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0px;
+}
+.Form-Label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.Form-Control {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid gray;
+}
+.Form-Control-2 {
+    width: 100%;
+}
+.Form-Button {
+    margin-top: 30px;
+    width: 150px;
+    background-color: #FE4931;
+    border: none;
+    color: #FFF5F5;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Form-Button:hover {  
+    background-color: #111E90;
+    color: #FFFFFF;
+    border: none;
+}
+.Footer {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #F4F4F4 !important;
+    color: black !important;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1300px) {    
+    .Form-Container {
+        width: 100%;
+        padding: 0 10%;
+    }
+    .Form-Control {
+        width: 55%;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {    
+    .Form-Container {
+        width: 100%;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 760px) {    
+    .Form-Container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {   
+    .Form-Label {
+        width: 35%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 7px;
+        font-weight: 600;
+    }
+    .Form-Control {
+        width: 60%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        border: 1px solid gray;
+    }
+}
+
+@media screen and (max-width: 560px) {   
+    .Form-Label {
+        width: 90%;
+        margin: 7px 5%;
+        display: block;
+        text-align: center;
+    }
+    .Form-Control {
+        width: 90%;
+        margin: 0 5%;
+        display: block;
+        text-align: center;
+        border: 1px solid gray;
+    }
+}

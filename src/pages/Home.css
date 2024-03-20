@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+.Product-Section-Title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    color: #141415;
+    margin-bottom: -25px;
+}
+
+.Top-Banner-Container {
+    background-image: url(../assets/Top-Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.Text-Container {
+    color: black;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 600;
+    bottom: 130px;
+    left: 30px;
+    right: 900px
+}
+.Banner-Title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.Banner-Text {
+    padding: 15px 0px;
+}
+.Banner-Button {
+    display: inline-block;
+    width: max-content;
+    padding: 0.75rem 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    border-radius: 0.5rem;
+    margin: 10px 0px;
+    background-color: #FE4931;
+    color: #FFF5F5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.Banner-Button:hover {  
+    background-color: #111E90;
+    color: #FFFFFF;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.Footer {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #FE4931;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+    .Top-Banner-Container {
+        background-image: url(../assets/Top-Banner-Medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 10% right 10%;
+        width: 100%;
+        height: 500px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .Text-Container {
+        bottom: 100px;
+        left: 30px;
+        right: 600px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Top-Banner-Container {
+        background-image: url(../assets/Top-Banner-Small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        height: 430px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .Text-Container {
+        bottom: 80px;
+        left: 30px;
+        right: 500px
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .Top-Banner-Container {
+        background-image: url(../assets/Top-Banner-Smaller.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 30% bottom;
+        width: 100%;
+        height: 450px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .Text-Container {
+        bottom: 10px;
+        left: 30px;
+        right: 30px;
+        display: inline-flex;
+        justify-content:center;
+    }    
+    .Banner-Title {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 5px 15px 0px 0px;
+        margin: 0px;
+    }
+    .Banner-Text {
+        display: none;
+    }
+    .Banner-Button {
+        display: inline-block;
+        width: max-content;
+        width: 120px;
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 2px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        border-radius: 0.5rem;
+        background-color: #FE4931;
+        color: #FFF5F5;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .Banner-Button:hover {  
+        background-color: #111E90;
+        color: #FFFFFF;
+    }
+}
