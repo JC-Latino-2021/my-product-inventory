@@ -1,3 +1,2 @@
-# Redirect with a 301
-/src/pages         /dist              301
-/         /dist              301
+# Redirect with a 200
+/src/pages  /index.html  200
