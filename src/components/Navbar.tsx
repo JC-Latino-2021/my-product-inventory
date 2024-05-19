@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
               <NavButtonSmaller link="/favourites" name="Favorites" />
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
@@ -140,11 +140,11 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            {<Tooltip title="Open settings">
+            {/* {<Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
               </IconButton>
-            </Tooltip>}
+            </Tooltip>} */}
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"
