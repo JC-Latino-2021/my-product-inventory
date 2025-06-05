@@ -77,7 +77,7 @@ const ProductCard = ({ id, title, price, description, image, category }: Product
       </CardActions>
       <CardActions sx={({ width: '160px', textAlign:'center', margin: '0px 75px' })}>
         <Wrapper>
-          <Link to={`productDetail/${id}`}>
+          <Link to={`../productDetail/${id}`}>
             <Button className="Button-Styling" size="small" sx={({ fontFamily:'Open Sans', fontSize:'15px', lineHeight:'20px', fontWeight:'600', width:'160px', textAlign:'center', padding:'10px', backgroundColor:'#FE4931', color:'white', marginTop:'15px' })}>View Details</Button>
           </Link>
         </Wrapper>
